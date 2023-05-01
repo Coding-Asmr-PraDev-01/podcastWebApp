@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Notes App</title>
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />  
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="">
+    
+    <div class="container">
+        <div class="podcastContainer">
+            <div class="leftBx">
+                <div class="logoBx">
+                    <h3>Podcastio.in</h3>
+                </div>
+                <div class="menuBx">
+                    <ul class="menu">
+                        <span class="smallHeading">Profile</span>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-home-alt'></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-compass'></i>
+                                <span>Discover</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bxl-graphql' ></i>
+                                <span>Trending</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-podcast' ></i>
+                                <span>Genre</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-heart' ></i>
+                                <span>Favorite</span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="menu">
+                        <span class="smallHeading">General</span>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-user-circle' ></i>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bxs-playlist' ></i>
+                                <span>Playlist</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-globe' ></i>
+                                <span>Community</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-cog' ></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="menu">
+                        <span class="smallHeading">Others</span>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-message-alt-add' ></i>
+                                <span>Resources</span>
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#" class="link">
+                                <i class='bx bx-slider-alt' ></i>
+                                <span>Light Mode</span>
+                                
+                            </a>
+                            <div class="wrapper">
+                                <input type="checkbox" class="toggleSwitch">
+                                <span class="checkmark"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <div class="middleBx">
+                <div class="searchBx">
+                    <i class='bx bx-search' ></i>
+                    <input type="text" placeholder="Search item, collections & account" />
+                </div>
+                <div class="mainBanner">
+                    <div class="leftBx">
+                        <h3 class="heading">Think Out Loud for Empathy</h3>
+                        <h4 class="subheading">Podcast by Joe Rogan</h4>
+                        <div>
+                            <p><i class='bx bx-play-circle' ></i> 5000+ Play</p>
+                            <p><i class='bx bx-headphone' ></i> 430+ people listening now</p>
+                        </div>
+                        <div class="btnsBx">
+                            <a href="#" class="btn btn-primary">Listen now</a>
+                            <a href="#" class="btn btn-secondary">Add to Playlist</a>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src="./imgs/person.png" alt="">
+                    </div>
+                </div>
+
+                <div class="categoryBx">
+                    <div class="contentBx">
+                        <h2>Category</h2>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="categories">
+                        <div class="category active">
+                            <img src="./imgs/fire.png" alt="" class="category-img">
+                            <p>All Trending</p>
+                        </div>
+                        <div class="category">
+                            <img src="./imgs/ink.png" alt="" class="category-img">
+                            <p>Art</p>
+                        </div>
+                        <div class="category">
+                            <img src="./imgs/music.png" alt="" class="category-img">
+                            <p>Music</p>
+                        </div>
+                        <div class="category">
+                            <img src="./imgs/football.png" alt="" class="category-img">
+                            <p>Sports</p>
+                        </div>
+                        <div class="category">
+                            <img src="./imgs/photography.png" alt="" class="category-img">
+                            <p>Photography</p>
+                        </div>
+                    </div>
+                   
+                </div>
+
+
+                <div class="recommendBx">
+                    <div class="contentBx">
+                        <h2>Recommended for You</h2>
+                        <a href="#">See all</a>
+                    </div>
+                    <div class="boxs">
+                        <div class="box">
+                            <div>
+                                <div class="imgBx">
+                                    <img src="./imgs/bookcover-1.jpg" alt="">
+                                </div>
+                                <div class="textBx">
+                                    <h4>The Alchemist</h4>
+                                    <span class="author">Paulo Coelho</span>
+                                </div>
+                            </div>
+                            <div class="iconBx">
+                                <i class='bx bx-play-circle' ></i>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="imgBx">
+                                    <img src="./imgs/bookcover-2.jpg" alt="">
+                                </div>
+                                <div class="textBx">
+                                    <h4>Karma by Sadhguru</h4>
+                                    <span class="author">Sadhguru</span>
+                                </div>
+                            </div>
+                            <div class="iconBx">
+                                <i class='bx bx-play-circle' ></i>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="imgBx">
+                                    <img src="./imgs/bookcover-3.jpg" alt="">
+                                </div>
+                                <div class="textBx">
+                                    <h4>The galaxy guide</h4>
+                                    <span class="author">Addam Joven</span>
+                                </div>
+                            </div>
+                            <div class="iconBx">
+                                <i class='bx bx-play-circle' ></i>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <div class="imgBx">
+                                    <img src="./imgs/bookcover-4.jpg" alt="">
+                                </div>
+                                <div class="textBx">
+                                    <h4>Ikigai</h4>
+                                    <span class="author">Shinjo nakamuri</span>
+                                </div>
+                            </div>
+                            <div class="iconBx">
+                                <i class='bx bx-play-circle' ></i>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="recentBx">
+                    <div class="contentBx">
+                        <h2>Recently Played</h2>
+                        <a href="#">See all</a>
+                    </div>
+
+                    <div class="boxs">
+                        <div class="box">
+                            <div class="imgBx">
+                                <img src="./imgs/bookcover-5.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h4>Psychology of Money</h4>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgBx">
+                                <img src="./imgs/bookcover-6.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h4>Psychology of Money</h4>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgBx">
+                                <img src="./imgs/bookcover-7.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h4>Psychology of Money</h4>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgBx">
+                                <img src="./imgs/bookcover-8.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h4>Psychology of Money</h4>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightBx">
+                <div class="header">
+                    <div class="notificationBx">
+                        <i class='bx bxs-bell' ></i>
+                    </div>
+                    <div class="userBx">
+                        <div class="userInfoBx">
+                            <h3>Jacode James</h3>
+                            <span>Level Free</span>
+                        </div>
+                        <div class="imgBx">
+                            <img src="./imgs/person-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="playingBx">
+                    <div class="bookCover">
+                        <h1>Now Playing</h1>
+                        <div class="bookCoverImg">
+                            <img src="./imgs/bookcover-9.jpg" alt="">
+                        </div>
+                        <div class="textBx">
+                            <h2>you made it weired</h2>
+                            <p>Cameron Willams</p>
+                        </div>
+                        <div class="hr">
+                    </div>
+                    <div class="playBtnBx">
+                        <i class='bx bx-volume-full' ></i> 
+                        <i class='bx bx-fast-forward bx-flip-horizontal' ></i>
+                        <i class='bx bx-play-circle' ></i>
+                        <i class='bx bx-fast-forward' ></i>
+                        <i class='bx bx-repost' ></i>
+                    </div>
+                </div>
+
+                <div class="podcasterBx">
+                    <div class="contentBx">
+                        <h2>Top Podcasters</h2>
+                    </div>
+
+                    <div class="podcasters">
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-1.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Wade Warren</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-2.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Chris Home</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-3.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Novan Showman</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-4.jpg" alt="">
+                            </div>  
+                            <div class="textBx">
+                                <h3>Pitter pote</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-5.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Lisa Sherly</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-6.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Sam Horris</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-7.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Yovun Kyouki</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-8.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Jab jacoob</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                        <div class="podcaster">
+                            <div class="imgBx">
+                                <img src="./imgs/person-9.jpg" alt="">
+                            </div>
+                            <div class="textBx">
+                                <h3>Lamesh Pandit</h3>
+                                <span class="author">Sam John</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
